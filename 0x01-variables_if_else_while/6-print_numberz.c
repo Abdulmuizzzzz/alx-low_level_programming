@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - Print every single digit in base 10
  * Return: 0
