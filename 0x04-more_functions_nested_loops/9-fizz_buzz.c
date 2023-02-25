@@ -25,7 +25,7 @@ int main(void)
 		{
 			printf(" FizzBuzz");
 		}
-		else if (i == 1)
+		else if (i == 100)
 		{
 			printf("%d", i);
 		}
