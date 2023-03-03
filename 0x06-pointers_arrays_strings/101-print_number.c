@@ -2,6 +2,7 @@ include "main.h"
 /**
  * print_number - print number chars
  * @n: integer params
+ *
  * Return: 0
  */
 
