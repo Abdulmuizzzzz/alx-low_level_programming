@@ -3,16 +3,16 @@
  * _strstr - Entry point
  * @haystack: input
  * @needle: input
- *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 char *_strstr(char *haystack, char *needle)
-{
+{I
 	for (; *haystack != '\0'; haystack++)
 	{
 		char *l = haystack;
 		char *p = needle;
-		while (*l = *p && != '\0')
+
+		while (*l == *p && *p != '\0')
 		{
 			l++;
 			p++;
